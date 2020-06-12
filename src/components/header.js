@@ -14,9 +14,11 @@ const Header = ({ siteTitle }) => (
         margin: `0 auto`,
         maxWidth: 960,
         padding: `1.45rem 1.0875rem`,
+        border: `2px solid red`,
+        textAlign: `center`
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{ margin: `0 auto `}}>
         <Link
           to="/"
           style={{
@@ -27,6 +29,9 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <p  style={{
+            color: `white`,
+          }}>Full stack Web Developer</p>
     </div>
   </header>
 )
